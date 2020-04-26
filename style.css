@@ -1,0 +1,26 @@
+*{
+    color: blueviolet;
+    /*universal selector*/
+}
+
+
+p{
+    color: chartreuse;
+    /*element selector*/
+}
+
+h1,h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    /*multi element selector*/
+}
+
+.newClass{
+    font-style: italic;
+    /*class selector*/
+}
+
+#idName{
+     color: darkgoldenrod;   
+     /*id selector*/
+}
