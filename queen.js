@@ -70,11 +70,11 @@ function update(dir, step) {
   }
 }
 function move() {
-  var a = value.split(" ");
-  console.log(a);
-  a.forEach((m) => {
-    let step = Number(m.slice(m.length - 1));
-    let dir = m.slice(0, m.length - 1);
+  var p = value.split(" ");
+  console.log(p);
+  p.forEach((q) => {
+    let step = Number(m.slice(q.length - 1));
+    let dir = m.slice(0, q.length - 1);
     update(dir, step);
     console.log(dir);
     console.log(step);
